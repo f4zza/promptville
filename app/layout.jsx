@@ -13,6 +13,7 @@
       return (
         <html lang='en'>
             <body>
+                <provider>
                 <div className='main'>
                     <div className='gradient' />    
                 </div>
@@ -20,6 +21,7 @@
                     <Nav />
                     {children}
                 </main>
+                </provider>
             </body>
         </html>
       )
